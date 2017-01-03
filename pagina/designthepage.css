@@ -1,0 +1,117 @@
+body{
+    background-image: url("../bgpage/4.jpg");
+    background-color: black;
+}
+
+div.pagina{
+	margin:5%;
+	margin-left: 10%;
+}
+
+div.iconContacts{
+    margin:5%;
+    margin-left:20%;
+}
+
+
+div.iconContacts a{
+    padding:3px;
+    margin:10px;
+
+}
+
+h1{
+    color: #4CAF50;
+    font-family: "Verdana", Arial, sans-serif;
+    font-size: 100%;
+    margin: 3%;
+    text-align: center;
+}
+
+h2{
+    color:white;
+    font-family: "Verdana", Arial, sans-serif;
+    font-size: 100%;
+    margin: 3.5%;
+    margin-bottom:1%;
+    text-align: left;
+}
+
+h3{
+    color:white;
+    font-family: "Verdana", Arial, sans-serif;
+    font-size: 89%;
+    margin: 3%;
+}
+
+ol, ul{
+    font-family: "Verdana", Arial, sans-serif;
+    font-size: 90%;
+    margin: 3.5%;
+    margin-bottom:1%;
+    text-align: left;
+    line-height: 2;
+    color:white;
+
+}
+
+
+div.composicao p{
+	font-family: "Verdana", Arial, sans-serif;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	/* Editar caso espaço texto for maior/menor */
+	margin-top: 2px;
+	margin-bottom: 1px;
+	margin-bottom: 0px; 
+	text-align: justify;
+	line-height: 2;
+	text-indent: 2.5em;
+	font-size:90%;
+    color:white;
+}
+
+
+
+ul.navigationBar{
+    list-style-type: none;
+    margin-left: 105px;
+    margin-right:142px;
+    margin-top:0px;
+    margin-bottom:0px;
+    /*
+    padding-left: 140px;
+    padding-right:142px;
+    */
+    overflow: hidden;
+    background-color: #0B0D0F;
+    opacity: 0.8;
+    font-family: "Verdana", Arial, sans-serif;
+}
+
+ul.navigationBar li{
+	float:left;
+}
+
+ul.navigationBar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+ul.navigationBar li a:hover:not(.active) {
+    background-color: #1A5100;
+    color: #FFFFFF;
+    font-weight:bold;
+}
+
+ul.navigationBar .active {
+    background-color: #4CAF50;
+}
+
+img.icon{
+	margin-left: 20px;
+}
