@@ -14,7 +14,7 @@ div#quadrados{
 
 div.iconContacts{
     margin:5%;
-    margin-left:24%;
+    margin-left:15%;
 }
 
 
@@ -38,10 +38,12 @@ h2.descricao{
     color: white;
     font-family: "Verdana", Arial, sans-serif;
     font-size: 85%;
-    margin-left: 30%;
-    margin-right:30%;
+    line-height: 180%;
     text-align: center;
-    line-height: 2;
+    margin-top: 2px;
+    margin-left:7%;
+    margin-right:7%;
+    margin-bottom: 1px;
 }
 
 h2{
@@ -167,5 +169,5 @@ ul.navigationBar .active {
 }
 
 img.icon{
-	margin-left: 20px;
+	margin:1%;
 }
