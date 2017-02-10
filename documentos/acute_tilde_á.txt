@@ -1,0 +1,15 @@
+A palavra agudo, de acento agudo, em inglês é 'acute'.
+Já o til (~), em inglês é 'tilde'.
+O trema, esses dois pontinhos em cima da letra (ü), é 'umlaut'.
+E circunflexo (^) é 'circumflex'.
+Pronto, isso vai nos ajudar com os códigos.
+
+Para colocar o acento agudo na letra 'e', fazemos: &eacute;
+Para colocar o acento til na letra 'a', fazemos: &atilde;
+E para colocar o acento circunflexo no'e' fazemos: &ecirc;
+
+Ou seja, no lugar do caractere que queremos colocar a acentuação, substituímos pelo código.
+Por exemplo, a palavra "são" se torna "s&atilde;o"
+Já a palavra "eficiência" se torna "efici&ecirc;ncia"
+
+http://www.htmlprogressivo.net/2013/10/charset-meta-tag-caracteres-especiais.html

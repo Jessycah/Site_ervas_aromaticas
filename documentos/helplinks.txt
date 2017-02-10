@@ -1,0 +1,2 @@
+http://help.typepad.com/link-to-an-email-address.html
+https://developers.google.com/web/updates/2012/02/Getting-Gmail-to-handle-all-mailto-links-with-registerProtocolHandler
