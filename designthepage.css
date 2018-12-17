@@ -1,140 +1,205 @@
-body{
+body {
     background-image: url("bgpage/4.jpg");
     background-color: black;
 }
 
-div.pagina{
-	margin:5%;
-	margin-left: 5%;
+div.pagina {
+    margin: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-div#quadrados{
-    margin-left:5%;
+div#quadrados {
+    margin-left: 5%;
 }
 
-div.iconContacts{
-    margin:5%;
-    margin-left:15%;
+div.iconContacts {
+    margin: 5%;
+    margin-left: 15%;
 }
 
 
-div.iconContacts a{
-    padding:3px;
-    margin:10px;
+div.iconContacts a {
+    padding: 3px;
+    margin: 10px;
 
 }
 
-h1{
+h1 {
     color: #4CAF50;
     font-family: "Verdana", Arial, sans-serif;
     font-size: 100%;
     margin-left: 0%;
-    margin-right:0%;
-    margin-bottom:3%;
+    margin-right: 0%;
+    margin-bottom: 3%;
     text-align: center;
 }
 
-h2.descricao{
+h2.descricao {
     color: white;
     font-family: "Verdana", Arial, sans-serif;
     font-size: 85%;
     line-height: 180%;
     text-align: center;
     margin-top: 2px;
-    margin-left:7%;
-    margin-right:7%;
+    margin-left: 7%;
+    margin-right: 18%;
     margin-bottom: 1px;
+    text-decoration: none;
 }
 
-h2{
-    color:white;
+h2 {
+    color: white;
     font-family: "Verdana", Arial, sans-serif;
     font-size: 100%;
     margin: 3.5%;
-    margin-left:10%;
-    margin-bottom:1%;
+    margin-left: 10%;
+    margin-bottom: 1%;
     text-align: left;
 }
 
-h3{
-    color:white;
+h3 {
+    color: white;
     font-family: "Verdana", Arial, sans-serif;
     font-size: 89%;
     margin: 3%;
 }
 
-h3#about{
-    margin-left:10%;
-}
-
-h3.gmail{
-    text-align:center;
-    font-size:100%;
+h4 {
+    color: white;
     font-family: "Verdana", Arial, sans-serif;
-    width:50%;
-    height:20px;
-    margin:30px;
-    margin-left:22%;
-    padding:30px;
-    border-radius:10px;
-    background-color: rgba(60,180,100,0.3); 
+    font-size: 70%;
+    margin: 3%;
 }
 
-h3.gmail a:link{
+h3#about {
+    margin-left: 10%;
+}
+
+a {
+    color: white;
+    font-family: "Verdana", Arial, sans-serif;
+    text-decoration: none;
+    font-size: 90%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+h3.gmail {
+    text-align: center;
+    font-size: 100%;
+    font-family: "Verdana", Arial, sans-serif;
+    width: 50%;
+    height: 20px;
+    margin: 30px;
+    margin-left: 22%;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(60, 180, 100, 0.3);
+}
+
+h3.gmail a:link {
     color: #E0E317;
     text-decoration: none;
 }
 
-h3.gmail a:visited{
-    color:white;
+h3.gmail a:visited {
+    color: white;
 }
 
-h3.gmail a:hover{
+h3.gmail a:hover {
     font-family: "Courier New", Arial, sans-serif;
     color: #4CC417;
-    font-weight:bold;
-    font-size:140%;
+    font-weight: bold;
+    font-size: 140%;
     text-decoration: underline;
 }
 
 
-ol, ul{
+ol,
+ul {
     font-family: "Verdana", Arial, sans-serif;
     font-size: 90%;
     margin: 3.5%;
-    margin-bottom:1%;
+    margin-bottom: 1%;
     text-align: left;
     line-height: 2;
-    color:white;
+    color: white;
 
 }
 
+ul.a {
+    list-style-type: circle;
+}
 
-div.composicao p{
-	font-family: "Verdana", Arial, sans-serif;
-	padding-bottom: 0px;
-	padding-top: 0px;
-	/* Editar caso espaço texto for maior/menor */
-	margin-top: 2px;
-    margin-left:7%;
-    margin-right:7%;
-	margin-bottom: 1px;
-	margin-bottom: 0px; 
-	text-align: justify;
-	line-height: 2;
-	text-indent: 2.5em;
-	font-size:90%;
-    color:white;
+ul.b {
+    list-style-type: square;
+}
+
+ol.c {
+    list-style-type: upper-roman;
+}
+
+ol.d {
+    list-style-type: lower-alpha;
 }
 
 
+div.composicao p {
+    font-family: "Verdana", Arial, sans-serif;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    /* Editar caso espaço texto for maior/menor */
+    margin-top: 2px;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 1px;
+    margin-bottom: 0px;
+    text-align: justify;
+    line-height: 2;
+    text-indent: 2.5em;
+    font-size: 90%;
+    color: white;
+}
 
-ul.navigationBar{
+p {
+    font-family: "Verdana", Arial, sans-serif;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    /* Editar caso espaço texto for maior/menor */
+    margin-top: 2px;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 1px;
+    margin-bottom: 0px;
+    text-align: justify;
+    line-height: 2;
+    text-indent: 2.5em;
+    font-size: 90%;
+    color: white;
+}
+
+
+ul.navigationBar {
     list-style-type: none;
     margin-left: 105px;
-    margin-right:142px;
-    margin-top:0px;
-    margin-bottom:0px;
+    margin-right: 142px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     /*
     padding-left: 140px;
     padding-right:142px;
@@ -145,8 +210,8 @@ ul.navigationBar{
     font-family: "Verdana", Arial, sans-serif;
 }
 
-ul.navigationBar li{
-	float:left;
+ul.navigationBar li {
+    float: left;
 }
 
 ul.navigationBar li a {
@@ -161,13 +226,13 @@ ul.navigationBar li a {
 ul.navigationBar li a:hover:not(.active) {
     background-color: #1A5100;
     color: #FFFFFF;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 ul.navigationBar .active {
     background-color: #4CAF50;
 }
 
-img.icon{
-	margin:1%;
+img.icon {
+    margin: 1%;
 }
