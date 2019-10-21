@@ -1,0 +1,258 @@
+body {
+    /*background-image: url("bgpage/8.jpg");*/
+    background-color: white;
+    
+}
+
+
+
+.pagina{
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 2%;
+}
+
+p {
+    font-family: "Verdana", Arial, sans-serif;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    /* Editar caso espaço texto for maior/menor */
+    margin-top: 2px;
+    margin-left: 10%;
+    margin-right: 7%;
+    margin-bottom: 1px;
+    margin-bottom: 0px;
+    text-align: justify;
+    line-height: 2;
+    text-indent: 2.5em;
+    font-size: 90%;
+    
+}
+
+
+ul.navigationBar {
+    list-style-type: none;
+    margin-left: 105px;
+    margin-right: 142px; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /*
+    padding-left: 140px;
+    padding-right:142px;
+    */
+    overflow: hidden;
+    background-color: rgb(227, 248, 235);
+    opacity: 0.8;
+    font-family: "Verdana", Arial, sans-serif;
+}
+
+ul.navigationBarVertical{
+    list-style-type: none;
+    margin: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 7%;
+    background-color:rgb(227, 248, 235);
+    opacity: 0.8;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    font-family: "Verdana", Arial, sans-serif;
+}
+
+
+ul.navigationBar li, ul.navigationBarVertical li a{
+    float: left;
+}
+
+ul.navigationBar li a, ul.navigationBarVertical li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1em 1em;
+    text-decoration: none;
+
+}
+
+ul.navigationBar li a:hover:not(.active) , ul.navigationBarVertical li a:hover:not(.active){
+    background-color:rgb(36, 170, 36);
+    color:black;
+    font-weight: bold;
+}
+
+ul.navigationBar .active , ul.navigationBarVertical .active{
+    background-color: #4CAF50;
+}
+
+
+/* https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/ */
+
+.albumervas{
+    text-align: center;
+}
+
+div#quadrados {
+    display: inline-block
+    /*margin-left: 5%;*/
+    /*width: 100%;*/
+    
+}
+
+div.iconContacts {
+    margin: 5%;
+    margin-left: 15%;
+}
+
+
+div.iconContacts a {
+    padding: 3px;
+    margin: 10px;
+}
+
+h1 {
+    color: #4CAF50;
+    font-family: "Verdana", Arial, sans-serif;
+    font-size: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+h2.descricao {
+    color: rgb(0, 0, 0);
+    font-family: "Verdana", Arial, sans-serif;
+    font-size: 85%;
+    line-height: 180%;
+    text-align: center;
+    margin-top: 2px;
+    margin-left: 7%;
+    margin-right: 18%;
+    margin-bottom: 1px;
+    text-decoration: none;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-family: "Verdana", Arial, sans-serif;
+    font-size: 100%;
+    margin: 3.5%;
+    margin-left: 10%;
+    margin-bottom: 1%;
+    text-align: left;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    font-family: "Verdana", Arial, sans-serif;
+    font-size: 89%;
+    margin: 3%;
+}
+
+h4 {
+    color: rgb(0, 0, 0);
+    font-family: "Verdana", Arial, sans-serif;
+    font-size: 70%;
+    margin: 3%;
+}
+
+h3#about {
+    margin-left: 10%;
+}
+
+a {
+    color: rgb(8, 8, 8);
+    font-family: "Verdana", Arial, sans-serif;
+    text-decoration: none;
+    font-size: 90%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+h3.gmail {
+    text-align: center;
+    font-size: 100%;
+    font-family: "Verdana", Arial, sans-serif;
+    width: 50%;
+    height: 20px;
+    margin: 30px;
+    margin-left: 22%;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(60, 180, 100, 0.3);
+}
+
+h3.gmail a:link {
+    color: rgb(114, 116, 7);
+    text-decoration: none;
+}
+
+h3.gmail a:visited {
+    color: rgb(0, 0, 0);
+}
+
+h3.gmail a:hover {
+    font-family: "Courier New", Arial, sans-serif;
+    color: #4CC417;
+    font-weight: bold;
+    font-size: 140%;
+    text-decoration: underline;
+}
+
+
+ol, ul {
+    font-family: "Verdana", Arial, sans-serif;
+    font-size: 90%;
+    margin: 3.5%;
+    margin-bottom: 1%;
+    text-align: left;
+    line-height: 2;
+    color: rgb(0, 0, 0);
+}
+
+ul.a {
+    list-style-type: circle;
+}
+
+ul.b {
+    list-style-type: square;
+}
+
+ol.c {
+    list-style-type: upper-roman;
+}
+
+ol.d {
+    list-style-type: lower-alpha;
+}
+
+img.icon {
+    margin: 1%;
+}
+
+.footer {
+    font-size: 80%;
+    font-family: "Verdana", Arial, sans-serif;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
