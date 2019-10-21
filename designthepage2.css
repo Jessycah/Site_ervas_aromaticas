@@ -1,6 +1,6 @@
 body {
-    background-image: url("bgpage/4.jpg");
-    background-color: black;
+    /*background-image: url("bgpage/8.jpg");*/
+    background-color: white;
     
 }
 
@@ -26,7 +26,7 @@ p {
     line-height: 2;
     text-indent: 2.5em;
     font-size: 90%;
-    color: white;
+    
 }
 
 
@@ -41,7 +41,7 @@ ul.navigationBar {
     padding-right:142px;
     */
     overflow: hidden;
-    background-color: #0B0D0F;
+    background-color: rgb(227, 248, 235);
     opacity: 0.8;
     font-family: "Verdana", Arial, sans-serif;
 }
@@ -52,7 +52,7 @@ ul.navigationBarVertical{
     padding-top: 2%;
     padding-bottom: 2%;
     width: 7%;
-    background-color: #0B0D0F;
+    background-color:rgb(227, 248, 235);
     opacity: 0.8;
     height: 100%; /* Full height */
     position: fixed; /* Make it stick, even on scroll */
@@ -68,7 +68,7 @@ ul.navigationBar li, ul.navigationBarVertical li a{
 
 ul.navigationBar li a, ul.navigationBarVertical li a {
     display: block;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 1em 1em;
     text-decoration: none;
@@ -76,8 +76,8 @@ ul.navigationBar li a, ul.navigationBarVertical li a {
 }
 
 ul.navigationBar li a:hover:not(.active) , ul.navigationBarVertical li a:hover:not(.active){
-    background-color: #1A5100;
-    color: #FFFFFF;
+    background-color:rgb(36, 170, 36);
+    color:black;
     font-weight: bold;
 }
 
@@ -121,7 +121,7 @@ h1 {
 }
 
 h2.descricao {
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: "Verdana", Arial, sans-serif;
     font-size: 85%;
     line-height: 180%;
@@ -134,7 +134,7 @@ h2.descricao {
 }
 
 h2 {
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: "Verdana", Arial, sans-serif;
     font-size: 100%;
     margin: 3.5%;
@@ -144,14 +144,14 @@ h2 {
 }
 
 h3 {
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: "Verdana", Arial, sans-serif;
     font-size: 89%;
     margin: 3%;
 }
 
 h4 {
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: "Verdana", Arial, sans-serif;
     font-size: 70%;
     margin: 3%;
@@ -162,7 +162,7 @@ h3#about {
 }
 
 a {
-    color: white;
+    color: rgb(8, 8, 8);
     font-family: "Verdana", Arial, sans-serif;
     text-decoration: none;
     font-size: 90%;
@@ -198,12 +198,12 @@ h3.gmail {
 }
 
 h3.gmail a:link {
-    color: #E0E317;
+    color: rgb(114, 116, 7);
     text-decoration: none;
 }
 
 h3.gmail a:visited {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 h3.gmail a:hover {
@@ -222,7 +222,7 @@ ol, ul {
     margin-bottom: 1%;
     text-align: left;
     line-height: 2;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 ul.a {
@@ -252,7 +252,7 @@ img.icon {
     bottom: 0;
     width: 100%;
     
-    background-color: black;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
   }

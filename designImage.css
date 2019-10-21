@@ -49,7 +49,7 @@ div.container p.text{
 /** Design Link for each div photo container */
 div.container a:link{
 	/* unvisited link */
-	color: #E0E317;
+	color: rgb(255, 115, 0); /*  #E0E317 */
 }
 
 div.container a:visited{
