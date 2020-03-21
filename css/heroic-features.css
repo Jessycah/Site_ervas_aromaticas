@@ -16,3 +16,23 @@ body {
   margin-right: auto;
   
 }
+
+.noDecoration{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+.noDecoration li {
+  display: inline;
+  float: left;
+}
+
+.noDecoration li a:hover {
+  background-color: #111;
+}
+
+.noDecoration li .active {
+  background-color: #4CAF50;
+}
