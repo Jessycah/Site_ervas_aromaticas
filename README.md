@@ -10,4 +10,4 @@ Conteúdo validado em:
 * https://validator.w3.org/nu/
 * https://jigsaw.w3.org/css-validator/
 
-Qualquer erro, por favor contactar via twitter - @iJessicaRock. 
+Qualquer erro, por favor contactar via twitter - @jessicapt 
